@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-image: url('./images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-content {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: right;
+    padding: 200px 0;
+}
+
+.text {
+    padding-left: 700px;
+}
+
+.text h1,
+.failure-text h2,
+.plan h1,
+.footer-info h1 {
+    font-size: 60px;
+}
+
+.text p,
+.failure-text p {
+    font-size: 16px;
+    margin: 30px 0;
+    line-height: 1.6;
+}
+
+.text button,
+.showoff button,
+.sbs-btn {
+    background: #E85B25;
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+.container {
+    width: 1250px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failure-text,
+.failure-img {
+    width: 50%;
+}
+
+.failure-img,
+.plan-card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.failure-img img {
+    max-width: 90%;
+}
+
+.failure-text ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.failure-text ul li {
+    font-size: 18px;
+}
+
+.failure-text ul li span {
+    color: green;
+    margin-right: 5px;
+}
+
+.plan h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: capitalize;
+    margin-top: 60px;
+}
+
+.plan-card {
+    text-align: center;
+}
+
+.plan-card h2,
+.footer-input h2 {
+    font-size: 28px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.plan-card p {
+    font-size: 20px;
+    color: #666;
+}
+
+.showoff {
+    width: 1250px;
+    margin: 30px auto;
+    background: url(./images/gradient2.png), url('./images/watch.png');
+    background-position: center center;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.showoff h1 {
+    color: #fff;
+    font-size: 48px;
+    margin: 34px 0;
+    padding-right: 532px;
+}
+
+
+.showoff button,
+.sbs-btn {
+    background: #fff;
+    color: #E85B25;
+}
+
+footer {
+    background: #000;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footer-info,
+.footer-input {
+    width: 40%;
+}
+
+.footer-info h1 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer-info p {
+    font-size: 18px;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    display: flex;
+    margin-right: 12px;
+}
+
+.footer-input input {
+    display: block;
+    margin: 20px 0;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    width: 70%;
+    color: #fff;
+}
